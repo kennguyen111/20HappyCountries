@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   20 happiest countries in 2021
+   Author: Ken Nguyen
+
+   Filename:         happyCountries.xml
+   Supporting Files: happyCountries.xsl
+-->
+<?xml-stylesheet type="text/xsl" href="happyCountries.xsl" ?>
+
+<countries>
+    <country>
+        <name>Finland</name>
+        <region>Europe</region>
+        <population>5,540,720</population>
+        <avgIncome>49,600</avgIncome>
+        <GDPPercapita>53,084</GDPPercapita>
+        <unemploymentRate>8.60%</unemploymentRate>
+        <rank>1</rank>
+        <description>
+            Finland is a hidden gem tucked into the far up North. It is a treasure waiting to be discovered. You will find thousands of reasons to fall in love with Finland; the people, arctic adventures and secrets.
+            And four distinct seasons that continue to call you back. When you think you have seen and experiences it all, then it is time to explore Finland.
+        </description>
+    </country>
+
+    <country>
+        <name>Iceland</name>
+        <region>Europe</region>
+        <population>341,243</population>
+        <avgIncome>72,900</avgIncome>
+        <GDPPercapita>59,268</GDPPercapita>
+        <unemploymentRate>2.80%</unemploymentRate>
+        <rank>2</rank>
+        <description>Iceland is often called the Land of Ice and Fire, a land where volcanoes and geothermal heat have made their mark on the landscape, along with the many glaciers and glacier lagoons, a land of pristine and unspoiled nature.
+            Iceland, the lonely island in the middle of the North Atlantic, has become a popular spot for Hollywood blockbuster films. And no wonder, the alien and strange landscapes seems easy to translate as either other planets, as in Star Wars – Rogue One or Prometheus, or suits as a setting for different fantasies, such as Game of Thrones. A land which the powerful elements, fire and ice, have molded and made their mark upon.
+        </description>
+    </country>
+
+    <country>
+        <name>Denmark</name>
+        <region>Europe</region>
+        <population>5,792,202</population>
+        <avgIncome>62,700</avgIncome>
+        <GDPPercapita>63,405</GDPPercapita>
+        <unemploymentRate>5.80%</unemploymentRate>
+        <rank>3</rank>
+        <description>
+            Denmark is a Scandinavian country comprising the Jutland Peninsula and numerous islands. It's linked to nearby Sweden via the Öresund bridge. Copenhagen, its capital, is home to royal palaces and colorful Nyhavn harbor, plus the Tivoli amusement park and the iconic “Little Mermaid” statue. Odense is writer Hans Christian Andersen’s hometown, with a medieval core of cobbled streets and half-timbered houses.
+        </description>
+    </country>
+
+    <country>
+        <name>Switzerlands</name>
+        <region>Europe</region>
+        <population>8,654,622</population>
+        <avgIncome>88,000</avgIncome>
+        <GDPPercapita>78,112</GDPPercapita>
+        <unemploymentRate>3.00%</unemploymentRate>
+        <rank>4</rank>
+        <description>
+            Switzerland is a mountainous Central European country, home to numerous lakes, villages and the high peaks of the Alps. Its cities contain medieval quarters, with landmarks like capital Bern’s Zytglogge clock tower and Lucerne’s wooden chapel bridge. The country is also known for its ski resorts and hiking trails. Banking and finance are key industries, and Swiss watches and chocolate are world renowned.
+        </description>
+    </country>
+
+    <country>
+        <name>Netherlands</name>
+        <region>Europe</region>
+        <population>17,134,872</population>
+        <avgIncome>53,100</avgIncome>
+        <GDPPercapita>61,816</GDPPercapita>
+        <unemploymentRate>4.80%</unemploymentRate>
+        <rank>5</rank>
+        <description>
+            The Netherlands, a country in northwestern Europe, is known for a flat landscape of canals, tulip fields, windmills and cycling routes. Amsterdam, the capital, is home to the Rijksmuseum, Van Gogh Museum and the house where Jewish diarist Anne Frank hid during WWII. Canalside mansions and a trove of works from artists including Rembrandt and Vermeer remain from the city's 17th-century "Golden Age."
+        </description>
+    </country>
+
+    <country>
+        <name>Sweden</name>
+        <region>Europe</region>
+        <population>10,099,265</population>
+        <avgIncome>53,800</avgIncome>
+        <GDPPercapita>57,425</GDPPercapita>
+        <unemploymentRate>6.60%</unemploymentRate>
+        <rank>6</rank>
+        <description>
+            Sweden is a Scandinavian nation with thousands of coastal islands and inland lakes, along with vast boreal forests and glaciated mountains. Its principal cities, eastern capital Stockholm and southwestern Gothenburg and Malmö, are all coastal. Stockholm is built on 14 islands. It has more than 50 bridges, as well as the medieval old town, Gamla Stan, royal palaces and museums such as open-air Skansen.
+        </description>
+    </country>
+
+    <country>
+        <name>Germany</name>
+        <region>Europe</region>
+        <population>83,783,942</population>
+        <avgIncome>47,000</avgIncome>
+        <GDPPercapita>50,788</GDPPercapita>
+        <unemploymentRate>3.80%</unemploymentRate>
+        <rank>7</rank>
+        <description>
+            Germany is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches. It has over 2 millennia of history. Berlin, its capital, is home to art and nightlife scenes, the Brandenburg Gate and many sites relating to WWII. Munich is known for its Oktoberfest and beer halls, including the 16th-century Hofbräuhaus. Frankfurt, with its skyscrapers, houses the European
+        </description>
+    </country>
+
+    <country>
+        <name>Norway</name>
+        <region>Europe</region>
+        <population>5,421,241</population>
+        <avgIncome>78,300</avgIncome>
+        <GDPPercapita>69,859</GDPPercapita>
+        <unemploymentRate>4.00%</unemploymentRate>
+        <rank>8</rank>
+        <description>
+            Norway is a Scandinavian country encompassing mountains, glaciers and deep coastal fjords. Oslo, the capital, is a city of green spaces and museums. Preserved 9th-century Viking ships are displayed at Oslo’s Viking Ship Museum. Bergen, with colorful wooden houses, is the starting point for cruises to the dramatic Sognefjord. Norway is also known for fishing, hiking and skiing, notably at Lillehammer’s Olympic resort.
+        </description>
+    </country>
+
+    <country>
+        <name>New Zealand</name>
+        <region>Oceania</region>
+        <population>4,822,233</population>
+        <avgIncome>42,500</avgIncome>
+        <GDPPercapita>45,880</GDPPercapita>
+        <unemploymentRate>4.90%</unemploymentRate>
+        <rank>9</rank>
+        <description>
+            New Zealand is an island country in the southwestern Pacific Ocean. It consists of two main landmasses—the North Island and the South Island —and over 700 smaller islands, covering a total area of 268,021 square kilometres.
+        </description>
+    </country>
+
+    <country>
+        <name>Austria</name>
+        <region>Europe</region>
+        <population>9,006,398</population>
+        <avgIncome>51,400</avgIncome>
+        <GDPPercapita>53,793</GDPPercapita>
+        <unemploymentRate>5.50%</unemploymentRate>
+        <rank>10</rank>
+        <description>
+            Austria, officially the Republic of Austria, is a landlocked country in the southern part of Central Europe, located on the Eastern Alps. It is composed of nine federated states, one of which is Vienna, Austria's capital and largest city.
+        </description>
+    </country>
+
+    <country>
+        <name>Israel</name>
+        <region>Asia</region>
+        <population>8,655,535</population>
+        <avgIncome>43,100</avgIncome>
+        <GDPPercapita>49,840</GDPPercapita>
+        <unemploymentRate>4.30%</unemploymentRate>
+        <rank>11</rank>
+        <description>
+            Israel, a Middle Eastern country on the Mediterranean Sea, is regarded by Jews, Christians and Muslims as the biblical Holy Land. Its most sacred sites are in Jerusalem. Within its Old City, the Temple Mount complex includes the Dome of the Rock shrine, the historic Western Wall, Al-Aqsa Mosque and the Church of the Holy Sepulchre. Israel's financial hub, Tel Aviv, is known for its Bauhaus architecture and beaches.
+        </description>
+    </country>
+
+    <country>
+        <name>Australia</name>
+        <region>Oceania</region>
+        <population>25,499,884</population>
+        <avgIncome>53,700</avgIncome>
+        <GDPPercapita>55,492</GDPPercapita>
+        <unemploymentRate>5.60%</unemploymentRate>
+        <rank>12</rank>
+        <description>
+            Australia, officially the Commonwealth of Australia, is a sovereign country comprising the mainland of the Australian continent, the island of Tasmania, and numerous smaller islands. It is the largest country by area in Oceania and the world's sixth-largest country.
+        </description>
+    </country>
+
+    <country>
+        <name>Ireland</name>
+        <region>Europe</region>
+        <population>4,937,786</population>
+        <avgIncome>63,500</avgIncome>
+        <GDPPercapita>102,394</GDPPercapita>
+        <unemploymentRate>6.40%</unemploymentRate>
+        <rank>13</rank>
+        <description>
+            The Republic of Ireland occupies most of the island of Ireland, off the coast of England and Wales. Its capital, Dublin, is the birthplace of writers like Oscar Wilde, and home of Guinness beer. The 9th-century Book of Kells and other illustrated manuscripts are on show in Dublin’s Trinity College Library. Dubbed the "Emerald Isle” for its lush landscape, the country is dotted with castles like medieval Cahir Castle.
+        </description>
+    </country>
+
+    <country>
+        <name>United States</name>
+        <region>North America</region>
+        <population>331,002,651</population>
+        <avgIncome>65,900</avgIncome>
+        <GDPPercapita>69,375</GDPPercapita>
+        <unemploymentRate>4.40%</unemploymentRate>
+        <rank>14</rank>
+        <description>
+            The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean. Major Atlantic Coast cities are New York, a global finance and culture center, and capital Washington, DC. Midwestern metropolis Chicago is known for influential architecture and on the west coast, Los Angeles' Hollywood is famed for filmmaking.
+        </description>
+    </country>
+
+    <country>
+        <name>Canada</name>
+        <region>North America</region>
+        <population>37,742,154</population>
+        <avgIncome>43,400</avgIncome>
+        <GDPPercapita>52,791</GDPPercapita>
+        <unemploymentRate>6.50%</unemploymentRate>
+        <rank>15</rank>
+        <description>
+            Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres, making it the world's second-largest country by total area.
+        </description>
+    </country>
+
+    <country>
+        <name>Czech Republic</name>
+        <region>Europe</region>
+        <population>10,708,981</population>
+        <avgIncome>21,900</avgIncome>
+        <GDPPercapita>25,806</GDPPercapita>
+        <unemploymentRate>2.80%</unemploymentRate>
+        <rank>16</rank>
+        <description>
+            The Czech Republic, also known by its short-form name Czechia and formerly known as Bohemia, is a landlocked country in Central Europe. It is bordered by Austria to the south, Germany to the west, Poland to the northeast, and Slovakia to the east.
+        </description>
+    </country>
+
+    <country>
+        <name>Belgium</name>
+        <region>Europe</region>
+        <population>11,589,623</population>
+        <avgIncome>48,000</avgIncome>
+        <GDPPercapita>55,919</GDPPercapita>
+        <unemploymentRate>7.30%</unemploymentRate>
+        <rank>17</rank>
+        <description>
+            Belgium, a country in Western Europe, is known for medieval towns, Renaissance architecture and as headquarters of the European Union and NATO. The country has distinctive regions including Dutch-speaking Flanders to the north, French-speaking Wallonia to the south and a German-speaking community to the east. The bilingual capital, Brussels, has ornate guildhalls at Grand-Place and elegant art-nouveau buildings.
+        </description>
+    </country>
+
+    <country>
+        <name>United Kingdom</name>
+        <region>Europe</region>
+        <population>67,886,011</population>
+        <avgIncome>42,100</avgIncome>
+        <GDPPercapita>48,693</GDPPercapita>
+        <unemploymentRate>4.40%</unemploymentRate>
+        <rank>18</rank>
+        <description>
+            The United Kingdom, made up of England, Scotland, Wales and Northern Ireland, is an island nation in northwestern Europe. England – birthplace of Shakespeare and The Beatles – is home to the capital, London, a globally influential centre of finance and culture. England is also site of Neolithic Stonehenge, Bath’s Roman spa and centuries-old universities at Oxford and Cambridge.
+        </description>
+    </country>
+
+    <country>
+        <name>Taiwan</name>
+        <region>Asia</region>
+        <population>23,816,775</population>
+        <avgIncome>15,800</avgIncome>
+        <GDPPercapita>61,371</GDPPercapita>
+        <unemploymentRate>3.80%</unemploymentRate>
+        <rank>19</rank>
+        <description>
+            Taiwan and its surrounding islands, situated in East Asia at the northwestern edge of the Pacific, possess an endless variety of terrains, forests, agricultural products, and marine ecologies, as well as a diversity of ethnic cultures along with enchanting human customs and practices.
+        </description>
+    </country>
+
+    <country>
+        <name>France</name>
+        <region>Europe</region>
+        <population>65,273,511</population>
+        <avgIncome>42,300</avgIncome>
+        <GDPPercapita>50,876</GDPPercapita>
+        <unemploymentRate>9.50%</unemploymentRate>
+        <rank>20</rank>
+        <description>
+            France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower. The country is also renowned for its wines and sophisticated cuisine. Lascaux’s ancient cave drawings, Lyon’s Roman theater and the vast Palace of Versailles attest to its rich history
+        </description>
+    </country>
+
+</countries>
