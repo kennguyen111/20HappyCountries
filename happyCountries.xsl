@@ -34,9 +34,6 @@
 
             <body>
                 <div id="wrap">
-                    <header>
-
-                    </header>
 
                     <h1>20 happiest countries in 2021</h1>
 
